@@ -1,6 +1,9 @@
+require 'pry'
+
 def square_array(array)
-  new_array = []
+  squared_numbers = []
   array.each do |numbers|
-  square_array(numbers)
-  new_array.push(numbers)
+    squared_numbers<< (numbers**2)
+  end
+  squared_numbers
 end
